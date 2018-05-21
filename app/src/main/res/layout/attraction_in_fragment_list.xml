@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name_of_attraction"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/empty_attraction_name_str"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gps_icon"
+        app:layout_constraintTop_toBottomOf="@id/name_of_attraction"
+        android:src="@drawable/ic_location_on_black_24dp"
+        android:contentDescription="@string/gps_icon_desc" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/address_of_attraction"
+        app:layout_constraintTop_toBottomOf="@id/name_of_attraction"
+        app:layout_constraintTop_toTopOf="@+id/gps_icon"
+        app:layout_constraintBottom_toBottomOf="@id/gps_icon"
+        app:layout_constraintStart_toEndOf="@id/gps_icon"
+        android:text="@string/empty_address_str"
+        />
+
+    <TextView
+        android:id="@+id/attraction_description_tv"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:text="@string/empty_locale_desc"
+        app:layout_constraintStart_toStartOf="@id/gps_icon"
+        app:layout_constraintTop_toBottomOf="@+id/gps_icon"
+        app:layout_constraintTop_toTopOf="@id/attraction_in_list_pic"
+        app:layout_constraintBottom_toBottomOf="@id/attraction_in_list_pic"
+        />
+
+    <ImageView
+        android:id="@+id/attraction_in_list_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/lil_pic_desc"
+        app:layout_constraintTop_toBottomOf="@+id/gps_icon"
+        app:layout_constraintStart_toEndOf="@id/attraction_description_tv"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/sdapp"/>
+
+</android.support.constraint.ConstraintLayout>
