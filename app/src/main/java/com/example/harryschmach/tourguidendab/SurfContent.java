@@ -4,26 +4,30 @@ package com.example.harryschmach.tourguidendab;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SunsetsContent {
+public class SurfContent {
     public static final List<SDAttraction> ITEMS = new ArrayList<>();
-
+    //	3. Surf Zones
+    //		a. OB
+    //		b. Bird Rock
+    //		c. Scripps
+    //      d. Cardiff
     static {
-        // Calumet Park
+        // Ocean Beach
         ITEMS.add(
                 new SDAttraction(R.string.calumet_name, R.string.calumetsunset_desc,
                         R.string.calumet_gps, R.drawable.calumetpark)
         );
-        // Sunset Cliffs
+        // Bird Rock
         ITEMS.add(
                 new SDAttraction(R.string.sunsetcliff_name, R.string.sunsetcliff_desc,
                         R.string.sunsetcliff_gps, R.drawable.obcliffs)
         );
-        // Cabrillo
+        // Scripps
         ITEMS.add(
                 new SDAttraction(R.string.cabrillo_name, R.string.cabrillo_desc,
                         R.string.calumet_gps, R.drawable.cabrillo)
         );
-        // Torrey Pines
+        // Cardiff
         ITEMS.add(
                 new SDAttraction(R.string.tp_name, R.string.tpsunset_desc,
                         R.string.tp_gps, R.drawable.torreypinespic)

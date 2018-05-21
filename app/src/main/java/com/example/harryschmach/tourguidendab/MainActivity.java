@@ -73,17 +73,25 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
         android.support.v4.app.Fragment fragmentChosen = null;
+        Bundle args = new Bundle();
 
 
         if (id == R.id.nav_attractions) {
-            // Handle the camera action
             fragmentChosen = new AttractionFragment();
+            args.putInt("whichInt", 0);
+            fragmentChosen.setArguments(args);
         } else if (id == R.id.nav_sunsets) {
-
+            fragmentChosen = new AttractionFragment();
+            args.putInt("whichInt", 1);
+            fragmentChosen.setArguments(args);
         } else if (id == R.id.nav_surfing) {
-
+            fragmentChosen = new AttractionFragment();
+            args.putInt("whichInt", 2);
+            fragmentChosen.setArguments(args);
         } else if (id == R.id.nav_foods) {
-
+            fragmentChosen = new AttractionFragment();
+            args.putInt("whichInt", 3);
+            fragmentChosen.setArguments(args);
         }
 
         if (fragmentChosen != null) {
@@ -101,20 +109,30 @@ public class MainActivity extends AppCompatActivity
 
         //creating fragment object
         android.support.v4.app.Fragment fragment = null;
+        Bundle args = new Bundle();
+
 
         //initializing the fragment object which is selected
         switch (itemId) {
             case R.id.nav_attractions:
                 fragment = new AttractionFragment();
+                args.putInt("whichInt", 0);
+                fragment.setArguments(args);
                 break;
             case R.id.nav_sunsets:
                 fragment = new AttractionFragment();
+                args.putInt("whichInt", 1);
+                fragment.setArguments(args);
                 break;
             case R.id.nav_surfing:
                 fragment = new AttractionFragment();
+                args.putInt("whichInt", 2);
+                fragment.setArguments(args);
                 break;
             case R.id.nav_foods:
                 fragment = new AttractionFragment();
+                args.putInt("whichInt", 3);
+                fragment.setArguments(args);
                 break;
         }
 

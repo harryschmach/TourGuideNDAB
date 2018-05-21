@@ -65,4 +65,9 @@
     <string name="sunsetcliff_desc">Sunset Cliffs is the classic San Diego sunset spot, for good reason.
         The dirt cliffs offer an unimpeded view of the ocean as the sun descends upon it.</string>
     <string name="sunsetcliff_gps">1100 Sunset Cliffs Blvd, San Diego, CA</string>
+
+    <string name="cabrillo_name">Cabrillo National Monument</string>
+    <string name="cabrillo_desc">Cabrillo National Monument sits on the tip of the top of Point Loma.
+    It has an amazing view of Downtown San Diego and has uninhibited vantages fit for a sunset.</string>
+    <string name="cabrillo_gps">1800 Cabrillo Memorial Dr, San Diego, CA</string>
 </resources>
