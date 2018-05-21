@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Tour Guide NDAB</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">San Diego, CA</string>
+    <string name="nav_header_subtitle">Explore the offerings</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="main_page_text">Get to know San Diego, the finest city in America</string>
+    <string name="scenic_attractions">Photo Ops</string>
+    <string name="sunset_spots">Sunset Spots</string>
+    <string name="surf_zones">Surf Zones</string>
+    <string name="foodie_fun">Foodie Fun</string>
+
+    <string name="balboa_park_src">Photo by Greg Ortega on Unsplash</string>
+    <string name="ob_src">Photo by Mark Munsee from Pexels</string>
+    <string name="ob_surf_src">https://pixabay.com/en/sunset-surfer-silhouette-2313194/</string>
+    <string name="torrey_pines_src">https://pixabay.com/en/beach-surf-ocean-san-diego-1291689/</string>
+    <string name="north_park_src">https://i.redd.it/ipdszne27buy.jpg</string>
+    <string name="calumet_park_src">https://foursquare.com/v/calumet-park/4b8abd90f964a520ae7d32e3?openPhotoId=5046b2a8e4b023513fb04ae9</string>
+
+    <string name="empty_address_str">5280 Place Street</string>
+    <string name="empty_attraction_name_str">Name of Attraction Goes Here</string>
+    <string name="gps_icon_desc">Quite Simply a GPS Icon</string>
+    <string name="lil_pic_desc">Image of Location</string>
+
+    <string name="empty_locale_desc">A short summary goes here of what the location is what is there to do
+     why its worth visiting</string>
+
+    <!--Photo Ops-->
+    <string name="hotel_del_name">Hotel Del Coronado</string>
+    <string name="hotel_del_desc">The Hotel Del Coronado on the Coronado peninsula is
+        an iconic wooden hotel that sits on a beach that has sand that glitters with gold.</string>
+    <string name="hotel_del_gps">1500 Orange Ave, Coronado, CA</string>
+
+    <string name="balboa_name">Balboa Park</string>
+    <string name="balboa_desc">Balboa Park sits overlooking the city with beautiful gardens and museums
+        containing items of intrigue for all.</string>
+    <string name="balboa_gps">1549 El Prado, San Diego, CA</string>
+
+    <string name="barrio_name">Barrio Logan</string>
+    <string name="barrio_desc">Barrio Logan boasts a beautiful view of San Diego Bay with charming
+        authentic culture and community that is hard to find elsewhere.</string>
+    <string name="barriofood_desc">Barrio Logan has the most authentic SoCal south of the border inspired
+        food in the cir=ty.</string>
+    <string name="barrio_gps">1939–1999 Logan Ave, San Diego, CA</string>
+
+    <string name="tp_name">Torrey Pines</string>
+    <string name="tpattr_desc">Torrey Pines is a beautiful state park that sits atop the ocean eroded
+        cliffs offering gentle hikes and amazing views for all to enjoy.</string>
+    <string name="tpsunset_desc">Torrey Pines is also magical around the sunset time so it is
+        in both the photo ops and sunset spots list.</string>
+    <string name="tp_gps">13079 N Torrey Pines Rd, San Diego, CA</string>
+
+    <!--Sunset Spots-->
+
+    <string name="calumet_name">Calumet Park</string>
+    <string name="calumetsunset_desc">Calumet Park is a well hidden secret of San Diego, tucked in Bird Rock
+        with an astonishing view of the ocean.</string>
+    <string name="calumetsurf_desc">Bird Rock gives surfers access to the ocean from rocky cliffs
+        offering solitude and immaculate breaks.</string>
+    <string name="calumet_gps">5424 Calumet Ave, La Jolla, CA</string>
+
+    <string name="sunsetcliff_name">Sunset Cliffs</string>
+    <string name="sunsetcliff_desc">Sunset Cliffs is the classic San Diego sunset spot, for good reason.
+        The dirt cliffs offer an unimpeded view of the ocean as the sun descends upon it.</string>
+    <string name="sunsetcliff_gps">1100 Sunset Cliffs Blvd, San Diego, CA</string>
+</resources>

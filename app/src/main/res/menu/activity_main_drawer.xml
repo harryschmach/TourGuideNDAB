@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_attractions"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/scenic_attractions" />
+        <!--
+        Sunset Icon
+        sunset by icon 54 from the Noun Project
+        -->
+        <item
+            android:id="@+id/nav_sunsets"
+            android:icon="@drawable/ic_sunsetsvgicon"
+            android:title="@string/sunset_spots" />
+        <!--
+        Waves Icon
+        waves by bezier master from the Noun Project
+        -->
+        <item
+            android:id="@+id/nav_surfing"
+            android:icon="@drawable/ic_wavesicon"
+            android:title="@string/surf_zones" />
+        <item
+            android:id="@+id/nav_foods"
+            android:icon="@drawable/ic_local_dining_black_24dp"
+            android:title="@string/foodie_fun" />
+    </group>
+
+</menu>
