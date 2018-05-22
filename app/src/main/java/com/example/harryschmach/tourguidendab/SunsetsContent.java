@@ -21,7 +21,7 @@ public class SunsetsContent {
         // Cabrillo
         ITEMS.add(
                 new SDAttraction(R.string.cabrillo_name, R.string.cabrillo_desc,
-                        R.string.calumet_gps, R.drawable.cabrillo)
+                        R.string.cabrillo_gps, R.drawable.cabrillo)
         );
         // Torrey Pines
         ITEMS.add(

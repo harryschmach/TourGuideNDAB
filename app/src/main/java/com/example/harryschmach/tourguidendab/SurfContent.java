@@ -14,23 +14,23 @@ public class SurfContent {
     static {
         // Ocean Beach
         ITEMS.add(
-                new SDAttraction(R.string.calumet_name, R.string.calumetsunset_desc,
-                        R.string.calumet_gps, R.drawable.calumetpark)
+                new SDAttraction(R.string.ob_name, R.string.ob_desc,
+                        R.string.ob_gps, R.drawable.obsurfpic)
         );
         // Bird Rock
         ITEMS.add(
-                new SDAttraction(R.string.sunsetcliff_name, R.string.sunsetcliff_desc,
-                        R.string.sunsetcliff_gps, R.drawable.obcliffs)
+                new SDAttraction(R.string.birdrock_name, R.string.calumetsurf_desc,
+                        R.string.birdrock_gps, R.drawable.brsurf)
         );
         // Scripps
         ITEMS.add(
-                new SDAttraction(R.string.cabrillo_name, R.string.cabrillo_desc,
-                        R.string.calumet_gps, R.drawable.cabrillo)
+                new SDAttraction(R.string.scripps_name, R.string.scripps_desc,
+                        R.string.scripps_gps, R.drawable.scrippssurf)
         );
         // Cardiff
         ITEMS.add(
-                new SDAttraction(R.string.tp_name, R.string.tpsunset_desc,
-                        R.string.tp_gps, R.drawable.torreypinespic)
+                new SDAttraction(R.string.cardiff_name, R.string.cardiff_desc,
+                        R.string.cardiff_gps, R.drawable.cardiff)
         );
     }
 }

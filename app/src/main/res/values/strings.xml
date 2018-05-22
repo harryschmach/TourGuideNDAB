@@ -18,6 +18,12 @@
     <string name="torrey_pines_src">https://pixabay.com/en/beach-surf-ocean-san-diego-1291689/</string>
     <string name="north_park_src">https://i.redd.it/ipdszne27buy.jpg</string>
     <string name="calumet_park_src">https://foursquare.com/v/calumet-park/4b8abd90f964a520ae7d32e3?openPhotoId=5046b2a8e4b023513fb04ae9</string>
+    <string name="calumet_surf_src">https://www.californiabeaches.com/beach/tourmaline-surfing-park-beach/</string>
+    <string name="scripps_surf_src">http://www.surfline.com/surfdata/report_breakdata.cfm?id=4246</string>
+    <string name="hilcrest_src">https://upload.wikimedia.org/wikipedia/commons/d/d1/Hillcrest%2C_San_Diego_Sign.jpg</string>
+    <string name="obfarmers_src">https://oceanbeachsandiego.com/sites/default/files/d7/news/farmersmarket_1.jpg</string>
+    <string name="cardiff_src">https://s3-media4.fl.yelpcdn.com/bphoto/G7xBtn47Xi87JDZpWjlc9g/348s.jpg</string>
+    <string name="bariofood_src">https://www.sandiego.org/-/media/images/sdta-site/events/festivals-and-street-fairs/chicano-park-day-celebration/chicano-park-day-1368x1023.jpg</string>
 
     <string name="empty_address_str">5280 Place Street</string>
     <string name="empty_attraction_name_str">Name of Attraction Goes Here</string>
@@ -41,15 +47,13 @@
     <string name="barrio_name">Barrio Logan</string>
     <string name="barrio_desc">Barrio Logan boasts a beautiful view of San Diego Bay with charming
         authentic culture and community that is hard to find elsewhere.</string>
-    <string name="barriofood_desc">Barrio Logan has the most authentic SoCal south of the border inspired
-        food in the cir=ty.</string>
+
     <string name="barrio_gps">1939–1999 Logan Ave, San Diego, CA</string>
 
     <string name="tp_name">Torrey Pines</string>
     <string name="tpattr_desc">Torrey Pines is a beautiful state park that sits atop the ocean eroded
         cliffs offering gentle hikes and amazing views for all to enjoy.</string>
-    <string name="tpsunset_desc">Torrey Pines is also magical around the sunset time so it is
-        in both the photo ops and sunset spots list.</string>
+
     <string name="tp_gps">13079 N Torrey Pines Rd, San Diego, CA</string>
 
     <!--Sunset Spots-->
@@ -57,9 +61,10 @@
     <string name="calumet_name">Calumet Park</string>
     <string name="calumetsunset_desc">Calumet Park is a well hidden secret of San Diego, tucked in Bird Rock
         with an astonishing view of the ocean.</string>
-    <string name="calumetsurf_desc">Bird Rock gives surfers access to the ocean from rocky cliffs
-        offering solitude and immaculate breaks.</string>
     <string name="calumet_gps">5424 Calumet Ave, La Jolla, CA</string>
+
+    <string name="tpsunset_desc">Torrey Pines is also magical around the sunset time so it is
+        in both the photo ops and sunset spots list.</string>
 
     <string name="sunsetcliff_name">Sunset Cliffs</string>
     <string name="sunsetcliff_desc">Sunset Cliffs is the classic San Diego sunset spot, for good reason.
@@ -70,4 +75,43 @@
     <string name="cabrillo_desc">Cabrillo National Monument sits on the tip of the top of Point Loma.
     It has an amazing view of Downtown San Diego and has uninhibited vantages fit for a sunset.</string>
     <string name="cabrillo_gps">1800 Cabrillo Memorial Dr, San Diego, CA</string>
+
+    <!--Surf Zones-->
+    <string name="ob_name">Ocean Beach (Beach)</string>
+    <string name="ob_desc">Ocean Beach (OB) is the birthplace of the SoCal image. Naturally,
+        the surfing right next to the iconic pier is a classic swell zone.</string>
+    <string name="ob_gps">1962 Abbott St, San Diego, CA</string>
+
+    <string name="birdrock_name">Bird Rock</string>
+    <string name="calumetsurf_desc">Bird Rock gives surfers access to the ocean from rocky cliffs
+        offering solitude and immaculate breaks.</string>
+    <string name="birdrock_gps">5426 Calumet Ave, La Jolla, CA</string>
+
+    <string name="scripps_name">Scripps Pier</string>
+    <string name="scripps_desc">Scripps Pier is the staging area for the oceanography research center
+        that is tucked inside a cove that breaks the best waves all the time.</string>
+    <string name="scripps_gps">8622 Kennel Way, La Jolla, CA </string>
+    
+    <string name="cardiff_name">San Elijo State Beach</string>
+    <string name="cardiff_desc">Perhaps the most serene beach in San Diego in Cardiff by the Sea,
+        the definition of Paradise on Earth. The surf lives up to the area.</string>
+    <string name="cardiff_gps">2050 S Coast Hwy 101, Cardiff, CA</string>
+
+    <!--Foodie Fun-->
+
+    <string name="np_name">North Park</string>
+    <string name="np_desc">North Park is the hipster, foodie, trendy area of San Diego. If you
+    want craft beer or decadent cuisine of all cultures, find a good parking spot and follow your nose.</string>
+    <string name="np_gps">2891 University Ave, San Diego, CA</string>
+
+    <string name="hillcrest_name">Hillcrest</string>
+    <string name="hillcrest_desc">Hillcrest is the most colorful brunch capital of San Diego. But the food
+        fun doesn\'t end after brunching hours with so many unique restaurants and watering holes to try.</string>
+    <string name="hillcrest_gps">3940 Fifth Ave, San Diego, CA</string>
+
+    <string name="barriofood_desc">Barrio Logan has the most authentic SoCal south of the border inspired
+        food in the cir=ty.</string>
+
+    <string name="ob_fooddesc">Ocean Beach is home to a strong culture of organic natural food.
+        The people there take pride in growing and serving farm fresh meals on a daily basis.</string>
 </resources>
