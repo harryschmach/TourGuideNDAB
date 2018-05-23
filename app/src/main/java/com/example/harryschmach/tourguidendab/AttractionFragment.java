@@ -8,9 +8,13 @@ import android.support.v4.app.Fragment;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * A fragment representing a list of Items.
@@ -22,8 +26,12 @@ public class AttractionFragment extends Fragment {
 
     // TODO: Customize parameter argument names
     private static final String ARG_COLUMN_COUNT = "column-count";
+    private static final String ARG_WHICH_FRAG = "whichInt";
     // TODO: Customize parameters
     private int mColumnCount = 1;
+    private int mWhichFrag = 1;
+
+    private List<SDAttraction> mItems;
     private OnListFragmentInteractionListener mListener;
 
     /**
@@ -49,6 +57,7 @@ public class AttractionFragment extends Fragment {
 
         if (getArguments() != null) {
             mColumnCount = getArguments().getInt(ARG_COLUMN_COUNT);
+            mWhichFrag = getArguments().getInt(ARG_WHICH_FRAG);
         }
     }
 
@@ -66,7 +75,21 @@ public class AttractionFragment extends Fragment {
             } else {
                 recyclerView.setLayoutManager(new GridLayoutManager(context, mColumnCount));
             }
-            recyclerView.setAdapter(new MyAttractionRecyclerViewAdapter(AttractionsContent.ITEMS, mListener));
+            // This block determines which content to put in the recycler view from the fragments
+            if (mWhichFrag == 0){
+                mItems = AttractionsContent.ITEMS;
+            }else if (mWhichFrag == 1){
+                mItems = SunsetsContent.ITEMS;
+            }else if (mWhichFrag == 2){
+                mItems = SurfContent.ITEMS;
+            }else if (mWhichFrag == 3){
+                mItems = FoodieContent.ITEMS;
+            }else {
+                mItems = AttractionsContent.ITEMS;
+            }
+
+
+            recyclerView.setAdapter(new MyAttractionRecyclerViewAdapter(mItems, mListener));
         }
         return view;
     }
@@ -74,7 +97,6 @@ public class AttractionFragment extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        getActivity().setTitle(R.string.scenic_attractions);
     }
 
     @Override

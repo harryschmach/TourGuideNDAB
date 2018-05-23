@@ -21,7 +21,7 @@ public class AttractionsContent {
         // Bario Logan
         ITEMS.add(
                 new SDAttraction(R.string.barrio_name, R.string.barrio_desc,
-                        R.string.barrio_gps, R.drawable.corobridge)
+                        R.string.barrio_gps, R.drawable.barrioatt)
         );
         // Torrey Pines
         ITEMS.add(
